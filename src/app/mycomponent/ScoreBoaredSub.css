@@ -1,0 +1,28 @@
+.score-board-sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .score-board-sub-heading{
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px){
+    .score-board-sub-heading{
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+    }
+    
+
+}

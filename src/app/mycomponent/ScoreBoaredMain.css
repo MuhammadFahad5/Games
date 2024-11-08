@@ -1,0 +1,44 @@
+
+
+
+
+.score-board-main{
+    background: linear-gradient(180deg, #F35065 0%, #B2061C 27.93%, #58010C 55.85%, #58010C 100%);
+}
+
+.score-board-main-chess{
+    background: linear-gradient(180deg, #B6CAE7 0%, #7690B5 27.93%, #3F5068 55.85%, #2F3640 100%)
+}
+
+.score-board-main-tennis{
+    background: linear-gradient(180deg, #F39E70 0%, #E5773B 27.93%, #9F4615 55.85%, #9F4615 100%)
+}
+
+
+
+.score-board-main-heading{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1100px){
+    .score-board-main-heading{
+        font-size: 20px;
+        font-weight: 600;
+        color: #fff;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px){
+    .score-board-main-heading{
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+
+}
