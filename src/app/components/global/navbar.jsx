@@ -2,11 +2,11 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Table Tennis', href: '#', current: true },
+  { name: 'Home', href: '/', current: true },
   { name: 'Chess', href: '/chess', current: false },
   { name: 'Tekken', href: '/tekken', current: false },
   { name: 'Ludo', href: '/ludo-tournament', current: false },
-  { name: 'Darts', href: '#', current: false },
+  { name: 'Table Tennis', href: '/table-tennis', current: false },
 ]
 
 function classNames(...classes) {
